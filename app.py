@@ -39,7 +39,7 @@ imagem = Image.open(arquivo_img)
 col1, col2 = st.columns(2, gap="small")
 
 with col1:
-    st.image(imagem, width=250)
+    st.image(imagem, width=300)
 with col2:
     st.title(NOME);
     st.write(DESCRICAO);
@@ -77,5 +77,19 @@ st.write(
         - 💾 Revisão em Pares.
         - 📈 Auxílio de programadore novatos.
         - 💻 Bom comportamento.
+    """
+)
+
+# Histórico de trabalho
+st.write("#")
+st.subheader("Histórico de trabalho")
+st.write("---")
+
+# Job 1
+st.write("👨‍🏫", "***Programador | IPM Sistemas*")
+st.write("08/2021 - Atualmente")
+st.write(
+    """
+        - 💹 Programação com framework PHP | Banco de Dados Postgres | JavaScript
     """
 )
