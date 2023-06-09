@@ -63,7 +63,7 @@ st.write("#")
 st.subheader("Experiências")
 st.write(
     """
-        - 💹 2 Ano como programador PHP.
+        - 💹 2 Anos como programador PHP.
         - 💹 Conhecimento em Python.
         - 💹 Desenvolvimento web.
     """
@@ -93,3 +93,10 @@ st.write(
         - 💹 Programação com framework PHP | Banco de Dados Postgres | JavaScript
     """
 )
+
+# Cursos
+st.write("#")
+st.subheader("Cursos")
+st.write("---")
+for curso, link in CURSOS.items():
+    st.write(f"[{curso}]({link})")
