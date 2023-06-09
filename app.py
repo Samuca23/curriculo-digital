@@ -12,7 +12,7 @@ arquivo_img = diretorio / "assets" / "foto.jpg"
 
 TITULO = "Curriculum | Samuel Chiodini"
 NOME = "Samuel Chiodini"
-DESCRICAO = "'"
+DESCRICAO = "Olá me chamo Samuel, tenho 22 anos. Possuo experiência prévia em eletrônica e atualmente trabalho na área de tecnologia como programador. Desde jovem, tenho grande interesse e dedicação pela computação, e sou muito cuidadoso e responsável com minhas tarefas. Levo meu trabalho a sério e mantenho a brincadeira em momentos apropriados. Prezo por manter uma postura educada com aqueles que convivem comigo e evitoconflitos desnecessários. Além disso, sou extremamente motivado para aprender coisas novas e aperfeiçoar minhas habilidades existentes."
 EMAIL = "samuel@teste"
 MIDIA_SOCIAL = {
     "Linkedin" : "https://www.linkedin.com/in/samuel-chiodini-5621931b3/",
@@ -50,3 +50,10 @@ with col2:
         mime="application/octet-strem"
     )
     st.write("✉️ E-mail")
+
+# Mídias sociais
+st.write("#");
+colunas = st.columns(len(MIDIA_SOCIAL))
+
+for index, (plataforma, link) in enumerate(MIDIA_SOCIAL.items()):
+    colunas[index].write(f"[{plataforma}]({link})")
