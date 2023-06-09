@@ -57,3 +57,25 @@ colunas = st.columns(len(MIDIA_SOCIAL))
 
 for index, (plataforma, link) in enumerate(MIDIA_SOCIAL.items()):
     colunas[index].write(f"[{plataforma}]({link})")
+
+#Experiencias
+st.write("#")
+st.subheader("Experiências")
+st.write(
+    """
+        - 💹 2 Ano como programador PHP.
+        - 💹 Conhecimento em Python.
+        - 💹 Desenvolvimento web.
+    """
+)
+
+#Skills
+st.write("#");
+st.subheader("Skills")
+st.write(
+    """
+        - 💾 Revisão em Pares.
+        - 📈 Auxílio de programadore novatos.
+        - 💻 Bom comportamento.
+    """
+)
