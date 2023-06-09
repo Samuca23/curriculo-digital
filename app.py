@@ -18,3 +18,7 @@ MIDIA_SOCIAL = {
     "Linkedin" : "https://www.linkedin.com/in/samuel-chiodini-5621931b3/",
     "GitHub" : "https://github.com/Samuca23"
 }
+
+CURSOS = {
+    "☕ PHP" : "www.google.com.br"
+}
